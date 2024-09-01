@@ -1,0 +1,18 @@
+<header class="bg-gray-800 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <!-- Brand Name -->
+        <div class="text-white text-2xl font-bold">
+            GetCricket
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-8 text-white">
+                <li (click)="refresh()" class="hover:text-gray-300 cursor-pointer">Refresh</li>
+                <li><a [routerLink]="'./home'" class="hover:text-gray-300">Home</a></li>
+                <li><a [routerLink]="'./live'" class="hover:text-gray-300">Live</a></li>
+                <li><a [routerLink]="'./history'" class="hover:text-gray-300">History</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>

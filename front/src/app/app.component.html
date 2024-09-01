@@ -1,0 +1,7 @@
+<app-header></app-header>
+<div *ngIf="loading" class="fixed inset-0 bg-white opacity-75 z-50">
+    <app-spinner></app-spinner>
+  </div>
+<div>
+    <router-outlet></router-outlet>
+</div>
